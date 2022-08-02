@@ -1,0 +1,16 @@
+# SOA Template version 2.0 
+# This version architectural adjustment to simplify the overall structure
+
+Run SetupScript to Update Project name
+
+powershell.exe -file SetupScript.ps1 [Project Name]
+
+i.e. powershell.exe -file SetupScript.ps1 Cti.Frebas.Hcom
+
+
+Other Repositories
+FREBAS.Data = https://flieds-wt1.flidn.filinvestland.com/svn/FREBAS.DATA/Trunk
+
+HCOM.App.Core = https://dev.azure.com/CorpTechInc/HCOM/_git/HCOM
+
+HCOM.App.Entities = https://dev.azure.com/CorpTechInc/HCOM/_git/HCOM

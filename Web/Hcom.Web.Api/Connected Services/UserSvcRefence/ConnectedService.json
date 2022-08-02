@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:9999/UserService.svc"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, UserSvcRefence"
+    ],
+    "targetFramework": "netcoreapp2.2",
+    "typeReuseMode": "All"
+  }
+}

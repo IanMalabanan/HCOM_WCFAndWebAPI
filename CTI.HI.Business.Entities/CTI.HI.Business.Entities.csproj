@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConstructionMilestoneGroup.cs" />
+    <Compile Remove="ConstructionMilestoneGroupDetails.cs" />
+    <Compile Remove="InventoryUnitOTC.cs" />
+    <Compile Remove="InventoryUnitOTCContractor.cs" />
+    <Compile Remove="InventoryUnitOTCContractorAwarded.cs" />
+    <Compile Remove="InventoryUnitOTCContractorAwardedLOA.cs" />
+    <Compile Remove="InventoryUnitOTCContractorConstructionMilestone.cs" />
+    <Compile Remove="InventoryUnitOTCContractorConstructionMilestoneMovement.cs" />
+    <Compile Remove="InventoryUnitOTCManagingContractor.cs" />
+    <Compile Remove="InventoryUnitOTCQualified.cs" />
+    <Compile Remove="OTCType.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+    <PackageReference Include="System.Composition.AttributedModel" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core.Common">
+      <HintPath>..\References\Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Core.Common.Contracts">
+      <HintPath>..\References\Core.Common.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="CTI.HCM.Business.Entities">
+      <HintPath>..\References\Cti.HCM.Business.Entities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
