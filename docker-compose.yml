@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  samplewebapicore:
+    image: samplewebapicore
+    build:
+      context: .
+      dockerfile: SampleWebApiCore/Dockerfile

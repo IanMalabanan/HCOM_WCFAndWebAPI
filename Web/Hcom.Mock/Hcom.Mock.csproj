@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <Reference Include="Hcom.App.Core">
+      <HintPath>..\..\..\Common\Hcom.App.Core\bin\Debug\netstandard2.0\Hcom.App.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hcom.App.Entities">
+      <HintPath>..\..\..\Common\Hcom.App.Entities\bin\Debug\netstandard2.0\Hcom.App.Entities.dll</HintPath>
+    </Reference>
+
+  </ItemGroup>
+
+</Project>
